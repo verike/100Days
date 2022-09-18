@@ -13,7 +13,7 @@ total_bill = float(total_bill)
 tip_percent = int(input('What tip would you like to give? 10, 12, or 15? '))
 
 tip_percent = tip_percent / 100
-# final_bill = total_bill + (total_bill * tip_percent)  #Conventional way of calculating the added percentage of a number.
+# final_bill = total_bill + (total_bill * tip_percent)  #Conventional way of calculating the added percentage of a number
 
 final_bill = total_bill * (1.0 + tip_percent)
 # A shortcut to add the percentage of the bill to the original bill
