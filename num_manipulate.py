@@ -20,4 +20,3 @@ height = 1.8
 isWinning = True
 print(f'your score is {score}, your height is {height}, and it is {isWinning} that you are winning')
 
-git commit -m"I implemented the f-strings while printing out a variabele containing an integer
